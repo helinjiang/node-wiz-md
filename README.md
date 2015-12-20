@@ -26,6 +26,8 @@ nodeWizMd(wizPath, mdPath, contentFn, completeFn);
 
 MIT © [helinjiang](http://www.helinjiang.com)
 
+## Release history
+2015.12.20 v0.1.1 如果不是为知笔记，则不解压；修复匹配body区域的正则表达式
 
 [npm-image]: https://badge.fury.io/js/node-wiz-md.svg
 [npm-url]: https://npmjs.org/package/node-wiz-md
