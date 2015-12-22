@@ -1,6 +1,6 @@
 {
   "name": "node-wiz-md",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Resolve markdown files from wiz local files.",
   "homepage": "https://github.com/helinjiang/node-wiz-md",
   "author": {
@@ -33,12 +33,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "copy": "^0.1.3",
+    "async": "^1.5.0",
     "glob": "^6.0.1",
     "iconv-lite": "^0.4.13",
     "mkdirp": "^0.5.1",
-    "rmdir": "^1.1.0",
-    "temp": "^0.8.3",
     "unzip": "^0.1.11",
     "walk-sync": "^0.2.6"
   }
