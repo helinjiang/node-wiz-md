@@ -1,6 +1,6 @@
 {
   "name": "node-wiz-md",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Resolve markdown files from wiz local files.",
   "homepage": "https://github.com/helinjiang/node-wiz-md",
   "author": {

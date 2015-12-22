@@ -31,7 +31,8 @@ describe('node-wiz-md', function () {
         var expect = fs.readFileSync('test/expected/custom.md', 'utf8');
         assert.equal(tmp, expect);
         done();
-      }
+      },
+      debug: true
     });
 
   });
@@ -40,12 +41,12 @@ describe('node-wiz-md', function () {
 
     nodeWizMd('test/fixtures/useimg/', 'tmp/', {
       completeFn: function () {
-        // md ÎÄ¼þ±ØÐëÒ»ÖÂ
+        // md æ–‡ä»¶å¿…é¡»ä¸€è‡´
         var tmp = fs.readFileSync('tmp/testimg.md', 'utf8');
         var expect = fs.readFileSync('test/expected/testimg.md', 'utf8');
         assert.equal(tmp, expect);
 
-        // Í¼Æ¬±ØÐë´æÔÚÇÒÒ»ÖÂ
+        // å›¾ç‰‡å¿…é¡»å­˜åœ¨ä¸”ä¸€è‡´
         var tmpImgArr = glob.sync('tmp/images/testimg.md/*.*');
         var expectImgArr = glob.sync('test/expected/images/testimg.md/*.*');
 
